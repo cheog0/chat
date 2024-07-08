@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.portlet {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.portlet-title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.portlet-title h4 {
+    margin: 0;
+    color: #007BFF; /* 하늘색 제목 */
+}
+
+.chat-widget {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.portlet-footer {
+    background: #fff;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 10px 10px;
+}
+
+.media {
+    margin-bottom: 10px;
+}
+
+.media img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.media-body {
+    padding-left: 10px;
+}
+
+.media-heading {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.media-heading span {
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+}
+
+.media-body p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f1f0f0;
+    word-wrap: break-word;
+}
+
+.media-body p.sent {
+    background: #e0f7fa; /* 하늘색 배경 */
+    text-align: right;
+}
+
+.media-body p.received {
+    background: #fff;
+}
+
+.name, .form-control {
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: #007BFF; /* 하늘색 버튼 */
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* 하늘색 버튼 호버 효과 */
+}
+
+.alert {
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.alert-success {
+    background-color: #e0f7fa; /* 하늘색 성공 메시지 */
+    border-color: #b2ebf2;
+    color: #007BFF;
+}
+
+.alert-danger {
+    background-color: #ffebee;
+    border-color: #ffcdd2;
+    color: #d32f2f;
+}
+
+.alert-warning {
+    background-color: #fff8e1;
+    border-color: #ffecb3;
+    color: #fbc02d;
+}
